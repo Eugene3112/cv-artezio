@@ -1,0 +1,120 @@
+
+@font-face {
+    font-family: 'resume-icons';
+    src:  url('fonts/resume-icons.eot?up73aj');
+    src:  url('fonts/resume-icons.eot?up73aj#iefix') format('embedded-opentype'),
+      url('../fonts/resume-icons.ttf') format('truetype'),
+      url('../fonts/resume-icons.woff?up73aj') format('woff'),
+      url('../fonts/resume-icons.svg?up73aj#resume-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'resume-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-down:before {
+    content: "\e900";
+  }
+  .icon-arrow-up:before {
+    content: "\e901";
+  }
+  .icon-geo-point:before {
+    content: "\e902";
+  }
+  .icon-mail:before {
+    content: "\e903";
+  }
+  .icon-phone:before {
+    content: "\e904";
+  }
+  
+html {
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: #3F3F3F;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #3F3F3F;
+}
+
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.section{
+    margin-bottom: 3rem;
+}
+.information{
+    display: flex;
+    flex-direction:row;
+    padding-top: 3rem;
+    min-height: 23rem;
+    max-width: 100%;
+}
+.image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: url('../img/P7ecLMFydl8.jpg') no-repeat 70% 0 ;
+    background-size: 37rem;
+    margin-right: 3rem;
+}
+[class^="icon-"], [class*=" icon-"]{
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    vertical-align: middle;
+}
+.contact__name{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.contact__position{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.communication{
+    display: flex;
+    flex-direction: column;
+}
+.communication__items{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    height: 3rem;
+    vertical-align: middle;
+}
+.align{
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+}
