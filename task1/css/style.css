@@ -88,7 +88,7 @@ body{
 }
 [class^="icon-"], [class*=" icon-"]{
     font-size: 2.5rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     vertical-align: middle;
 }
 .contact__name{
@@ -196,4 +196,31 @@ body{
   text-transform: uppercase;
   border: none;
   color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 582px) {
+  .information{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .image{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .contact__name,
+  .contact__position{
+    text-align: center;
+    width: 100%;
+  }
+  .communication{
+    width: 22rem;
+    margin: 0 auto;
+  }
+  .wrapper{
+    justify-content: center;
+  }
 }
