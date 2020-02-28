@@ -200,12 +200,19 @@ body{
 
 
 @media screen and (max-width: 582px) {
+  .container{
+    width: 100%;
+  }
   .information{
     display: flex;
     flex-direction:column;
     justify-content: center;
     width: 100%;
     margin: 0 auto;
+  }
+  .content__items{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .image{
     margin: 0 auto;
