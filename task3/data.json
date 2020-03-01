@@ -1,0 +1,100 @@
+{
+    "fullName": "Bertosh Eugene",
+    "position": "Front-end developer",
+    "phone": "0297965686",
+    "email": "bertoshevgieniy@mail.com",
+    "sex":"male",
+    "age": 22,
+    "image":"url('../img/P7ecLMFydl8.jpg')",
+    "section":[
+        {
+            "title":"work experience",
+            "isOpen":false,
+            "items":[
+                {
+                    "title":"Airbnb",
+                    "subTitle":"User Experience Design",
+                    "items":[
+                            "Partners closely with UX team leads executed research, redesign create workflows and wireframes for new featureswebsite,mobile/app in Nguyen Kim. ",
+                            "Develop Mobile first in Responsive sites bring Best experience for users with support team."
+                    ]
+                },
+                {
+                    "title":"Youtube",
+                    "subTitle":"Junior User Experience Designer",
+                    "items":"Upgrade Interaction Design in Web,Mobile/App with support of UI/UX team leads and team production"
+                }
+            ]
+        },
+        {
+            "title":"education",
+            "isOpen":false,
+            "items": {
+                    "title":"Belarusian State University",
+                    "subTitle":"Web Programming and Information Technology"
+                }
+        },
+        {
+            "title":"skills",
+            "isOpen":false,
+            "items":[
+                {
+                    "title":"HTML",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"CSS",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"JS",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"LESS and SASS",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"PHP",
+                    "subTitle":"Good theoretical knowledge"
+                }
+            ]
+        },
+        {
+            "title":"tools",
+            "isOpen":false,
+            "items":[
+                {
+                    "title":"Bootstrap",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"Google Fonts",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"Emmet",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"Koala App",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                },
+                {
+                    "title":"Git",
+                    "subTitle":"Medium: good theoretical knowledge, practical skills"
+                }
+            ]
+        },
+        {
+            "title":"massage",
+            "isOpen":false,
+            "items":[
+                {
+                    "title":"Massage",
+                    "subTitle":"Invitation to an interview"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,236 @@
+
+@font-face {
+    font-family: 'resume-icons';
+    src:  url('fonts/resume-icons.eot?up73aj');
+    src:  url('fonts/resume-icons.eot?up73aj#iefix') format('embedded-opentype'),
+      url('../fonts/resume-icons.ttf') format('truetype'),
+      url('../fonts/resume-icons.woff?up73aj') format('woff'),
+      url('../fonts/resume-icons.svg?up73aj#resume-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'resume-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-down:before {
+    content: "\e900";
+  }
+  .icon-arrow-up:before {
+    content: "\e901";
+  }
+  .icon-geo-point:before {
+    content: "\e902";
+  }
+  .icon-mail:before {
+    content: "\e903";
+  }
+  .icon-phone:before {
+    content: "\e904";
+  }
+  
+html {
+    font-size: 10px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a,
+a:hover,
+a:active{
+    text-decoration: none;
+    color: #3F3F3F;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #3F3F3F;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section{
+    margin-bottom: 3rem;
+}
+.information{
+    display: flex;
+    flex-direction:row;
+    padding-top: 3rem;
+    min-height: 23rem;
+    max-width: 100%;
+}
+.image{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: url('../img/P7ecLMFydl8.jpg') no-repeat 70% 0 ;
+    background-size: 37rem;
+    margin-right: 3rem;
+}
+[class^="icon-"], [class*=" icon-"]{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+.contact__name{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.contact__position{
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.communication{
+  display: flex;
+  flex-direction: column;
+}
+.communication__items{
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  min-height: 3rem;
+  vertical-align: middle;
+}
+.align{
+  display: inline-block;
+  min-height: 3rem;
+  line-height: 3rem;
+}
+.standard{
+  min-height: 3rem;
+  background-color: #C4C4C4;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.standard__tittle{
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
+[class^="icon-arrow"], [class*=" icon-arrow"]{
+  margin-right: 0.5rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.content__items{
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.content__tittle{
+  font-size: 1.8rem;
+  color:#3F3F3F;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle{
+  font-size: 1.6rem;
+  font-weight: 300;
+  color:#4269A3;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.date{
+  font-size: 1.4rem;
+  color: #A6A6A6;
+  margin-bottom: 0.5rem;
+}
+.duties{
+  font-size: 1.4rem;
+  line-height: 17px;
+  color: #3F3F3F;
+  margin-bottom: 1rem;
+}
+.duties::before {
+  content: "\2022";
+  display: inline-block;
+  width: 0.5rem;
+  font-size: 3rem;
+  color: #C4C4C4;
+  vertical-align: middle;
+  margin-right: 1.5rem;
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+}
+
+.button{
+  width: 14rem;
+  height: 4rem;
+  margin-top: 2rem;
+  background: #232C39;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  border: none;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 582px) {
+  .container{
+    width: 100%;
+  }
+  .information{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content__items{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .image{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+  .contact__name,
+  .contact__position{
+    text-align: center;
+    width: 100%;
+  }
+  .communication{
+    width: 22rem;
+    margin: 0 auto;
+  }
+  .wrapper{
+    justify-content: center;
+  }
+}
+.active-b{
+  display: none;
+}
